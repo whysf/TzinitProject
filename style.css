@@ -1,0 +1,79 @@
+.title-container {
+   font-size: 30px;
+   
+   padding: 0px 0px 0px 0px;
+   width: 150px;
+   height: ;
+   text-align: center;
+   position: relative;
+   right: -50%;
+   transform: translateX(-50%);
+   
+
+}
+.title{
+   font-family: "Merriweather Sans";
+   font-weight: bolder;
+}
+.content{
+   display: flex ;
+   flex-flow: row wrap;
+   
+   
+}
+.flex-pro{
+   font-size: 30px;
+   background-color: rgb(187, 187, 187);
+   text-align: left;
+   font-family: "Merriweather Sans";
+   padding: 10px;
+   margin: 10px ;
+   flex-basis: 50px;
+   
+}
+#one{
+   order: 1;
+   flex-grow: 1;
+   
+}
+#two{
+   order: 2;
+   flex-grow: 1;
+   
+}
+#three{
+   order: 3;
+   flex-grow: 1;
+   
+}
+#four{
+   order: 4;
+   flex-grow: 1;
+   
+}
+
+span{
+   color: rgb(18, 150, 18);
+}
+.img-container{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: 10px;
+   
+   
+}
+.img{
+   
+   width: 200px;
+   margin: 5px;
+   flex: 200px;
+   
+} 
+}
+#img1{
+
+}
+#img2{
+
+}
