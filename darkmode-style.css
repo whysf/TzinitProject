@@ -1,8 +1,8 @@
 body{
-   background-color: #f5f1da;
+   background-color: #393b44;
 }
 p{
-   color: black;
+   color: white;
 }
 .title-container {
    padding: 0px 0px 0px 0px;
@@ -29,7 +29,7 @@ p{
 }
 .flex-pro{
    font-size: 30px;
-   background-color: #e3dfc8;
+   background-color: #66676b;
    text-align: left;
    font-family: "Roboto Condensed";
    font-weight: lighter;
@@ -84,7 +84,7 @@ span{
    padding-bottom: 0px;
 }
 .footer1{
-   background-color: #e3dfc8 ;
+   background-color: #66676b ;
    margin: 10px;
    margin-bottom: 0px;
    font-family: "Roboto Condensed";
@@ -99,12 +99,12 @@ span{
 }
 
 .myButton {
-	background-color:#66676b;
+	background-color:#e3dfc8;
 	border-radius:28px;
-	border:1px solid #66676b;
+	border:1px solid #e3dfc8;
 	display:inline-block;
 	cursor:pointer;
-	color: white;
+	color: black;
 	font-family:Arial;
 	font-size:15px;
 	padding:7px;
@@ -119,7 +119,7 @@ span{
    
 }
 .myButton:hover {
-	background-color:#393b44;
+	background-color:#f5f1da;
 }
 .myButton:active {
 	position:relative;
@@ -129,8 +129,7 @@ span{
    font-family: "Roboto Condensed";
    padding: 0px 0px 10px 10px ;
    margin: 0px 10px 10px 10px;
-   background-color: #e3dfc8 ;
-   display: 
+   background-color: #66676b ;
 }
 
 
