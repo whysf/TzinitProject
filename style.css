@@ -1,5 +1,5 @@
 body{
-   background-color: #f5f1da;
+   background-color: #fbf6f0;
 }
 p{
    color: black;
@@ -15,8 +15,8 @@ p{
 
 }
 .title{
-   font-family: "Roboto Condensed";
-   font-weight: bold;
+   font-family: 'Merriweather Sans', sans-serif;
+   font-weight: bolder;
    font-size: 40px;
    margin: 20px;
 }
@@ -24,17 +24,19 @@ p{
 .content{
    display: flex ;
    flex-flow: row wrap;
+   margin-left: 10px;
+   margin-right: 10px;
    
    
 }
 .flex-pro{
-   font-size: 30px;
-   background-color: #e3dfc8;
+   font-size: 20px;
+   background-color: #e5e5e5;
    text-align: left;
-   font-family: "Roboto Condensed";
-   font-weight: lighter;
+   font-family:'Merriweather Sans';
+   font-weight: 400;
    padding: 10px;
-   margin: 10px ;
+   
    flex-basis: 50px;
    
 }
@@ -60,7 +62,7 @@ p{
 }
 
 span{
-   font-weight: 400;
+   font-weight: bold ;
 }
 .img-container{
    display: flex;
@@ -75,7 +77,7 @@ span{
 }
 .img{
    
-   width: 200px;
+   width: 50px;
    margin : 11px;
    flex: 200px;
 
@@ -89,15 +91,16 @@ span{
 }
 
 .container{
-   display: flex ;
-   flex-flow: row nowrap;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
    padding: 5px;
    padding-bottom: 0px;
 }
 .footer1{
-   background-color: #e3dfc8 ;
+   background-color: #e5e5e5;
    margin: 10px;
-   margin-bottom: 0px;
+   margin-bottom: 100000px;
    font-family: "Roboto Condensed";
 }
 
@@ -145,6 +148,76 @@ span{
 .link{
    color: black;
 }
+.container1{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 50px;
+   margin-bottom: 10px;
+}
+
+.text1{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.para1-container{
+   font-size: 17px;
+   background-color: #e5e5e5;
+   text-align: left;
+   font-family:'Merriweather Sans';
+   
+ padding: 20px;
+   
+   order: 1;
+   flex-grow: 3;
+   
+}
+.image1{
+   order: 2;
+   flex-grow: 1;
+   padding: 25px;
+   background-color: #e5e5e5;
+}
+#content1{
+   width: 50px;
+   flex: 350px;
+}
 
 
 
+.container2{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.text2{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.para2-container{
+   font-size: 17px;
+   background-color: #e5e5e5;
+   text-align: left;
+   font-family:'Merriweather Sans';
+   
+ padding: 25px;
+   
+   order: 2;
+   flex-grow: 3;
+   
+}
+.image2{
+   order: 1;
+   flex-grow: 1;
+   padding: 25px;
+   background-color: #e5e5e5;
+}
+#content2{
+   width: 50px;
+   flex: 350px;
+}
