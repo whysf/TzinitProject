@@ -66,17 +66,28 @@ span{
    display: flex;
    flex-flow: row wrap;
    justify-content: center;
-   margin: 10px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 5px;
+   margin-bottom: 10px;
    
    
 }
 .img{
    
    width: 200px;
-   margin: 5px;
+   margin : 11px;
    flex: 200px;
+
    
 } 
+#img1{
+ 
+}
+#img2{
+   
+}
+
 .container{
    display: flex ;
    flex-flow: row nowrap;
@@ -137,9 +148,3 @@ span{
 
 
 
-#img1{
-
-}
-#img2{
-
-}
